@@ -105,4 +105,14 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ##搭建Git服务器
 可以参考大神的教程：http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000
 
+##搭建Git服务器
+可以参考大神的教程：http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137583770360579bc4b458f044ce7afed3df579123eca000
+
+##错误信息汇总(持续更新)
+- Could not read from remote repository.Please make sure you have the correct access rights and the repository exists.
+![](http://images2015.cnblogs.com/blog/787409/201609/787409-20160922165758949-1774851468.tiff)
+###解决方法：
+1.首先``git remote -v``查看一下我们的远程库地址是否出错。
+2.``git remote set-url origin 你的远程库地址``origin是我在远程库中起的名字
+3.![](http://images2015.cnblogs.com/blog/787409/201609/787409-20160922170609934-1798412909.tiff)替换后成功。
 
